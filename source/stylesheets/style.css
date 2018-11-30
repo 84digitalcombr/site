@@ -1,0 +1,60 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+header{
+	z-index: 1;
+	overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    padding-bottom: 3em;
+}
+body{
+	background-color: #222222 /* colocar ";" para testar com a cor de background */
+	margin: 0 auto;
+}
+#menu ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#menu ul li{
+	margin: 9px;
+	padding-top: 1px;
+	display: inline-block;
+}
+#menu ul li a{
+}
+.socia
+.social-nav ul {
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.social-nav ul li{
+	margin: 10px;
+	display: inline-block;
+}
+
+.first-view{
+	padding-top: 60px;
+	position: relative;
+	margin-left: 2em;
+	margin-top: 10em;
+	margin-bottom: 14em;
+}
+.first-view div p{ 
+	font-size: 46px;
+}
+
+.img-man{
+	margin-right: 2em;
+	margin-top: 8em;
+}
+
+.img-man img{
+	width: 480px;
+}
