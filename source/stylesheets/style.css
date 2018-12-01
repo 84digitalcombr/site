@@ -11,8 +11,11 @@ header{
     padding-bottom: 3em;
 }
 body{
-	background-color: #222222 /* colocar ";" para testar com a cor de background */
-	margin: 0 auto;
+	background-image:url("../images/Homepage.png");
+	background-repeat: no-repeat;
+	background-position: ;
+	background-position: 50% 0%;
+	margin-left: 60px;
 }
 #menu ul {
     padding:0px;
@@ -57,4 +60,26 @@ body{
 
 .img-man img{
 	width: 480px;
+}
+
+.sobre{
+	padding-top: 142.5px;
+	float: right;
+}
+.sobre-details{
+	margin-top: 18.8px;
+	font-size: 18px;
+}
+
+.oferecemos{
+	padding-top: 96px;
+}
+.first-left div{
+	display: inline-block;
+}
+.first-left div span{
+	display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
 }
