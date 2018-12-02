@@ -1,0 +1,45 @@
+.topbar {
+  margin-top: 1.5rem;
+
+  .navbar {
+    .navbar-brand {
+      width: 160px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    #navbarNav {
+      justify-content: space-between;
+
+      .navbar-nav {
+        flex-shrink: 0;
+      }
+
+      .line {
+        height: 1px;
+        background: $gray-800;
+        width: 100%;
+        flex-grow: 0;
+        margin: 0 2rem;
+      }
+    }
+
+    .navbar-nav {
+      .nav-item {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: $white;
+      }
+
+      &.navbar-nav-social {
+        padding-right: 4rem;
+
+        .nav-item{
+          font-size: 1.43rem;
+        }
+      }
+    }
+  }
+}

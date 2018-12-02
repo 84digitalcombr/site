@@ -5,12 +5,18 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title>84 Digital | Descubra o poder das redes sociais</title>
+
     <%= stylesheet_link_tag "site" %>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt" crossorigin="anonymous">
+
     <%= javascript_include_tag "site" %>
   </head>
   <body>
-    <%= yield %>
+    <%= partial "header" %>
+    <div class="wrap">
+      <%= yield %>
+    </div>
+    <footer class="footer"></footer>
   </body>
 </html>

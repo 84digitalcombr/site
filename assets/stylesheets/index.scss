@@ -33,10 +33,13 @@
 // |
 // – index.scss             # primary Sass file
 
+@import "~bootstrap/scss/bootstrap.scss";
+
 // Base
 @import "base/variables";
 @import "base/reset";
 @import "base/typography";
+@import "base/global";
 
-// Vendors
-@import "~bootstrap/scss/bootstrap.scss";
+// Layout
+@import "layout/header";
