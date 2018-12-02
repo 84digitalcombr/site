@@ -1,0 +1,29 @@
+body, html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  min-height: 0;
+  min-width: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+a.no-style, a.no-style:focus, a.no-style:visited, a.no-style:hover {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  font-family: inherit;
+}
+
+a, button {
+  &, &:hover, &:active, &:focus, &:visited {
+    outline: none;
+    box-shadow: none;
+  }
+}

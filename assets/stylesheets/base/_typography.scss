@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i');
+
+body {
+  &, a, p {
+    font-weight: 500;
+  }
+
+  a, a:hover, a:focus, a:visited, a:active {
+    color: inherit;
+  }
+
+  ::selection {
+    background: $yellow;
+  }
+
+  ::-moz-selection {
+    background: $yellow;
+  }
+}
+

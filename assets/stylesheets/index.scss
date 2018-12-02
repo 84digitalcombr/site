@@ -1,1 +1,42 @@
-@import '~bootstrap/scss/bootstrap.scss'
+// https://www.sitepoint.com/architecture-sass-project/
+// stylesheets/
+// |– base/
+// |   |– _reset.scss       # Reset/normalize
+// |   |– _typography.scss  # Typography rules
+// |   ...                  # Etc…
+// |
+// |– components/
+// |   |– _buttons.scss     # Buttons
+// |   |– _carousel.scss    # Carousel
+// |   |– _cover.scss       # Cover
+// |   |– _dropdown.scss    # Dropdown
+// |   |– _navigation.scss  # Navigation
+// |   ...                  # Etc…
+// |
+// |– layout/
+// |   |– _grid.scss        # Grid system
+// |   |– _header.scss      # Header
+// |   |– _footer.scss      # Footer
+// |   |– _sidebar.scss     # Sidebar
+// |   |– _forms.scss       # Forms
+// |   ...                  # Etc…
+// |
+// |– pages/
+// |   |– _home.scss        # Home specific styles
+// |   |– _contact.scss     # Contact specific styles
+// |   ...                  # Etc…
+// |
+// |– vendors/
+// |   |– _bootstrap.scss   # Bootstrap
+// |   |– _jquery-ui.scss   # jQuery UI
+// |   ...                  # Etc…
+// |
+// – index.scss             # primary Sass file
+
+// Base
+@import "base/variables";
+@import "base/reset";
+@import "base/typography";
+
+// Vendors
+@import "~bootstrap/scss/bootstrap.scss";
