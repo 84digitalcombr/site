@@ -12,7 +12,8 @@
 
     <%= javascript_include_tag "site" %>
   </head>
-  <body>
+
+  <body style="background: #252525 url(<%= image_path 'body-shape.png' %>) no-repeat top center">
     <%= partial "header" %>
     <div class="wrap">
       <%= yield %>

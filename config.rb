@@ -14,6 +14,8 @@ activate :external_pipeline,
 config[:js_dir] = 'assets/javascripts'
 config[:css_dir] = 'assets/stylesheets'
 
+activate :relative_assets
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
