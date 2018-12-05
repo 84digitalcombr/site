@@ -1,0 +1,54 @@
+<div id="servicos" class="section section-services">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 offset-md-1">
+        <div class="section-header section-header">
+          <h1>
+            O que<br>oferecemos
+            <span class="section-header-badge">
+              <%= image_tag "section-services-badge.png" %>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="section-body">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-7 col-lg-6 offset-lg-1">
+          <div class="services-listing">
+            <% data.cms.services.each do |key, service| %>
+              <div class="service">
+                <div class="service-container">
+                  <div class="service-icon">
+                    <i class="<%= service.icon %>"></i>
+                  </div>
+                  <div class="service-title">
+                    <%= service.title %>
+                  </div>
+                </div>
+              </div>
+            <% end -%>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-lg-4">
+          <div class="services-listing-detailed">
+            <% data.cms.services.each do |key, service| %>
+              <% next if key != "social-media-management" %>
+              <div class="service">
+                <div class="service-icon">
+                  <i class="<%= service.icon %>"></i>
+                </div>
+                <div class="service-title">
+                  <%= service.title %>
+                </div>
+                <div class="service-description">
+                  <%= service.description %>
+                </div>
+              </div>
+            <% end -%>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

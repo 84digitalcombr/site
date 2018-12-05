@@ -1,0 +1,25 @@
+services:
+  social-media-management:
+    icon: "fal fa-comments"
+    title: "Gestão de Mídias Sociais"
+    description: "Precisa de gestão para seu Instagram, Facebook, Youtube ou todos? Temos isso pra você! Produzimos layouts e postagens com conteúdo exclusivo!"
+  weekly-plans:
+    icon: "fal fa-plane-departure"
+    title: "Planejamentos Semanais"
+    description: "Fazemos planejamentos semanais para você que inclui desde o tema da publicação até a hora que será postado de acordo com o horário de maior engajamento do seu público!"
+  monthly-reports:
+    icon: "fal fa-file-chart-line"
+    title: "Relatórios Mensais"
+    description: "Fazemos relatórios mensais sobre todas as métricas de suas mídias sociais para te ajudar a enxergar melhor o crescimento do seu negócio!"
+  visual-identity:
+    icon: "fal fa-pencil-paintbrush"
+    title: "Identidade Visual"
+    description: "Fazemos sua identidade visual completa conforme seu perfil e necessidades para seu negócio!"
+  interaction:
+    icon: "fal fa-user-chart"
+    title: "Interação"
+    description: "Fazemos interação com seus clientes, respondendo suas dúvidas por qualquer mídia social por um ótimo número de horas mensais!"
+  special-support:
+    icon: "fal fa-life-ring"
+    title: "Suporte Especial"
+    description: "Oferecemos um suporte especial para você, tirando todas as suas dúvidas e entregando todas as informações solicitadas!"
