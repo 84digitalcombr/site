@@ -1,0 +1,32 @@
+.modal {
+  .modal-content {
+    background-color: $gray;
+
+    .modal-header {
+      border-bottom: 1px solid $black;
+
+      .modal-title {
+        font-weight: 600;
+      }
+
+      .close {
+        text-shadow: none;
+        color: $yellow;
+        font-size: 1.75rem;
+      }
+    }
+
+    .modal-body {
+      .project-description {
+        padding: 2rem 3rem;
+        text-align: center;
+      }
+
+      .project-image-container {
+        .project-image {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

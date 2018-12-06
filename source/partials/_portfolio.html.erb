@@ -1,1 +1,31 @@
-<h1>Portfolio</h1>
+<div id="portfolio" class="section section-portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-8 offset-md-6 offset-lg-4">
+        <div class="section-header section-header-right">
+          <h1>
+            Alguns<br>trabalhos
+            <span class="section-header-badge">
+              <%= image_tag "section-portfolio-badge.png" %>
+            </span>
+          </h1>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="section-body">
+          <div class="projects-listing">
+            <% data.cms.projects.each do |key, project| %>
+              <div class="project" style="background-image: url(<%= image_path project.image_path %>)" data-title="<%= project.title %>" data-client="<%= project.client %>" data-description="<%= project.description %>" data-image-path="<%= image_path project.image_path %>" data-toggle="modal" data-target="#modal-project">
+                <div class="project-infos">
+                  <p class="project-title"><%= project.title %></p>
+                  <p class="project-client"><%= project.client %></p>
+                </div>
+              </div>
+            <% end -%>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

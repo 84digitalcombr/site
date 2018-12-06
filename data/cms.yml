@@ -23,3 +23,35 @@ services:
     icon: "fal fa-life-ring"
     title: "Suporte Especial"
     description: "Oferecemos um suporte especial para você, tirando todas as suas dúvidas e entregando todas as informações solicitadas!"
+
+projects:
+  project-1:
+    title: "Projeto 1"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed fringilla augue. Fusce molestie justo nibh, non faucibus nibh auctor at. Nullam massa lectus, imperdiet in mauris non, tempus suscipit nisl."
+    client: "Cliente 1"
+    image_path: "portfolio/project-1.jpg"
+  project-2:
+    title: "Projeto 2"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed fringilla augue. Fusce molestie justo nibh, non faucibus nibh auctor at. Nullam massa lectus, imperdiet in mauris non, tempus suscipit nisl."
+    client: "Cliente 2"
+    image_path: "portfolio/project-2.jpg"
+  project-3:
+    title: "Projeto 3"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed fringilla augue. Fusce molestie justo nibh, non faucibus nibh auctor at. Nullam massa lectus, imperdiet in mauris non, tempus suscipit nisl."
+    client: "Cliente 3"
+    image_path: "portfolio/project-3.jpg"
+  project-4:
+    title: "Projeto 4"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed fringilla augue. Fusce molestie justo nibh, non faucibus nibh auctor at. Nullam massa lectus, imperdiet in mauris non, tempus suscipit nisl."
+    client: "Cliente 4"
+    image_path: "portfolio/project-4.jpg"
+  project-5:
+    title: "Projeto 5"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed fringilla augue. Fusce molestie justo nibh, non faucibus nibh auctor at. Nullam massa lectus, imperdiet in mauris non, tempus suscipit nisl."
+    client: "Cliente 5"
+    image_path: "portfolio/project-5.jpg"
+  project-6:
+    title: "Projeto 6"
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed fringilla augue. Fusce molestie justo nibh, non faucibus nibh auctor at. Nullam massa lectus, imperdiet in mauris non, tempus suscipit nisl."
+    client: "Cliente 6"
+    image_path: "portfolio/project-6.jpg"

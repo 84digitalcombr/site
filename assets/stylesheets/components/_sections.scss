@@ -33,6 +33,18 @@
     }
   }
 
+  &.section-portfolio {
+    .section-header {
+      margin-bottom: 4rem;
+
+      .section-header-badge {
+        position: absolute;
+        right: 235px;
+        top: 15px;
+      }
+    }
+  }
+
   .section-header {
     h1 {
       font-size: 3.5rem;
