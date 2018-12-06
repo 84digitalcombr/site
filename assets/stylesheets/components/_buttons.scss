@@ -18,9 +18,12 @@
 
 .btn-yellow {
   background-color: $yellow;
+  border-color: $yellow;
   color: $black;
 }
 
 .btn-secondary {
+  background-color: $gray;
+  border-color: $gray;
   color: $yellow;
 }
