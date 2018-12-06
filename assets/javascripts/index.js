@@ -2,7 +2,7 @@ import $ from 'jquery'
 import 'popper.js'
 import 'bootstrap'
 
-$(document).on('click', '.topbar a[href^="#"]', function (event) {
+$(document).on('click', '.anchor-link', function (event) {
     event.preventDefault();
 
     $('html, body').animate({
