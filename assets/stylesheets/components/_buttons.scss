@@ -1,11 +1,26 @@
-.btn-lg {
-  padding: 1.25rem 1.5rem;
-  font-size: 1rem;
+.btn {
+  box-shadow: 0px 0px 6px 0px transparentize($black, .15) !important;
+  padding: 0.6rem 1.45rem;
+  font-size: 0.875rem;
   font-weight: 600;
   border-radius: 4rem;
 }
 
+.btn-sm {
+  padding: 0.45rem 1.5rem;
+  font-size: 0.75rem;
+}
+
+.btn-lg {
+  padding: 1.25rem 1.5rem;
+  font-size: 1rem;
+}
+
+.btn-yellow {
+  background-color: $yellow;
+  color: $black;
+}
+
 .btn-secondary {
   color: $yellow;
-  box-shadow: 0px 0px 6px 0px transparentize($black, .15) !important;
 }

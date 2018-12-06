@@ -1,5 +1,5 @@
 .section {
-  margin-top: 96px;
+  margin-top: 120px;
 
   &.section-about {
     margin-top: 152px;
@@ -30,58 +30,6 @@
 
     .section-body {
       color: $black;
-
-      .services-listing {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 30px;
-
-        .service {
-          flex: 0 0 150px;
-          margin: 0 15px 48px 0;
-          text-align: center;
-
-          .service-icon {
-            font-size: 4rem;
-            line-height: 1;
-            margin-bottom: 0.5rem;
-          }
-
-          .service-title {
-            font-size: 1.125rem;
-            font-weight: 600;
-            line-height: 1.25;
-          }
-        }
-
-        .service:last-child {
-          flex: 0 0 100%;
-
-          .service-container {
-            width: 150px;
-          }
-        }
-      }
-
-      .services-listing-detailed {
-        text-align: right;
-        color: $white;
-
-        .service {
-          .service-icon {
-            font-size: 6rem;
-            line-height: 1;
-          }
-
-          .service-title {
-            font-size: 2rem;
-            line-height: 1;
-            font-weight: 600;
-            padding-left: 25%;
-            margin-bottom: 0.75rem;
-          }
-        }
-      }
     }
   }
 
@@ -98,5 +46,9 @@
         text-align: right;
       }
     }
+  }
+
+  .section-footer {
+    margin-top: 1.5rem;
   }
 }

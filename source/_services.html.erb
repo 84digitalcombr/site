@@ -12,12 +12,15 @@
         </div>
       </div>
     </div>
+
     <div class="section-body">
       <div class="row align-items-center">
         <div class="col-12 col-md-7 col-lg-6 offset-lg-1">
-          <div class="services-listing">
+          <nav class="nav nav-tabs services-listing" id="services-tab" role="tablist">
+            <% index = 0 %>
             <% data.cms.services.each do |key, service| %>
-              <div class="service">
+              <% index = index + 1 %>
+              <a class="service nav-item nav-link <%= index == 1 ? 'active' : '' %>" id="tab-<%= key %>-tab" data-toggle="tab" href="#<%= key %>" role="tab" aria-controls="<%= key %>" aria-selected="<%= index == 1 ? 'true' : 'false' %>">
                 <div class="service-container">
                   <div class="service-icon">
                     <i class="<%= service.icon %>"></i>
@@ -26,27 +29,40 @@
                     <%= service.title %>
                   </div>
                 </div>
+              </a>
+            <% end -%>
+          </nav>
+        </div>
+        <div class="col-12 col-md-5 col-lg-4">
+          <div class="services-listing-detailed tab-content" id="services-tab-content">
+            <% index = 0 %>
+            <% data.cms.services.each do |key, service| %>
+              <% index += 1 %>
+              <div class="tab-pane fade <%= index == 1 ? 'active show' : ''  %>" id="<%= key %>" role="tabpanel" aria-labelledby="<%= key %>-tab" aria-selected="<%= index == 1 ? 'true' : 'false' %>">
+                <div class="service">
+                  <div class="service-icon">
+                    <i class="<%= service.icon %>"></i>
+                  </div>
+                  <div class="service-title">
+                    <%= service.title %>
+                  </div>
+                  <div class="service-description">
+                    <%= service.description %>
+                  </div>
+                  <%= link_to "Tenho interesse!", "#", class: "btn btn-secondary service-cta" %>
+                </div>
               </div>
             <% end -%>
           </div>
         </div>
-        <div class="col-12 col-md-5 col-lg-4">
-          <div class="services-listing-detailed">
-            <% data.cms.services.each do |key, service| %>
-              <% next if key != "social-media-management" %>
-              <div class="service">
-                <div class="service-icon">
-                  <i class="<%= service.icon %>"></i>
-                </div>
-                <div class="service-title">
-                  <%= service.title %>
-                </div>
-                <div class="service-description">
-                  <%= service.description %>
-                </div>
-              </div>
-            <% end -%>
-          </div>
+      </div>
+    </div>
+
+    <div class="section-footer">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-5">
+          <span>Não encontrou o que procurava?</span>
+          <%= link_to "Fale com a gente!", "#", class: "btn btn-yellow btn-sm service-cta" %>
         </div>
       </div>
     </div>
