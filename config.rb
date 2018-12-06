@@ -13,6 +13,7 @@ activate :external_pipeline,
 
 config[:js_dir] = 'assets/javascripts'
 config[:css_dir] = 'assets/stylesheets'
+config[:images_dir] = 'images'
 
 activate :relative_assets
 
