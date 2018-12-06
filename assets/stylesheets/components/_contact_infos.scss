@@ -1,0 +1,48 @@
+.contact-infos {
+  margin-top: 2rem;
+  display: flex;
+
+  .contact-info {
+    .contact-info-title {
+      font-weight: bold;
+    }
+
+    .contact-info-content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0.5rem;
+
+      .contact-info-item {
+        display: flex;
+        align-items: center;
+
+        &:first-of-type {
+          margin-bottom: 0.2rem;
+        }
+
+        &.no-icon {
+          padding-left: 2rem;
+        }
+
+        .icon {
+          font-size: 1.5rem;
+          line-height: 1;
+          margin-right: 0.5rem;
+        }
+
+        .text {
+          font-size: 0.875rem;
+        }
+      }
+    }
+
+    &.contact-info-follow-us {
+      border-right: 1px solid $gray;
+      padding-right: 1.5rem;
+    }
+
+    &.contact-info-whats {
+      padding-left: 1.5rem;
+    }
+  }
+}

@@ -45,12 +45,31 @@
     }
   }
 
+  &.section-contact {
+    .section-header {
+      .section-header-subtitle {
+        padding-right: 2rem;
+      }
+
+      .section-header-badge {
+        position: absolute;
+        left: 290px;
+        top: 15px;
+      }
+    }
+  }
+
   .section-header {
     h1 {
       font-size: 3.5rem;
       font-weight: bold;
       line-height: 1;
       text-transform: uppercase;
+    }
+
+    .section-header-subtitle {
+      font-size: 0.875rem;
+      margin-top: 1rem;
     }
 
     &.section-header-right {
