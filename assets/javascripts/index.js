@@ -21,4 +21,11 @@ $(document).on('show.bs.modal', '#modal-project', function (event) {
   modal.find('.project-title').text(title);
   modal.find('.project-description').text(description);
   modal.find('.project-image').attr('src', image_path);
-})
+});
+
+$(document).on('submit', 'form[name=mc-embedded-subscribe-form]', function (event) {
+    $('#mce-NAME').val('');
+    $('#mce-EMAIL').val('');
+    $('#mce-PHONE').val('');
+    $('#mce-MESSAGE').val('');
+});
